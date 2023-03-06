@@ -1,5 +1,7 @@
 #include <stdio.h>
-/* C programming using puts with function main */
+/**
+ * main -Key Function
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
