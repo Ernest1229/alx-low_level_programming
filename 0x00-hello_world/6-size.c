@@ -7,7 +7,7 @@
 int main(void)
 {
 	char acharacter;
-	int ainterger;
+	int ainteger;
 	long along;
 	long long alonglong;
 	float afloat;
