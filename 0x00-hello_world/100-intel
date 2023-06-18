@@ -1,0 +1,12 @@
+#include <stdio.h>
+/**
+  *main -  Entry level of the program
+  *No parameter invloved
+  *
+  *Long Description: Prints the sizes of the various types
+  *Return: 0
+  */
+int main(void)
+{
+	gcc -S $CFILE
+}
