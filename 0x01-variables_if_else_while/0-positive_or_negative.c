@@ -7,7 +7,7 @@
   *No parameter
   *
   *Description - Print whether or not number n is positive or negative
-  *Return : 0
+  *Return:0
   */
 
 int main(void)
