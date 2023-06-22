@@ -6,10 +6,10 @@
   *parameter-alpha
   *
   *Description-Code to print a to z
-  *Return-0
+  *Return:0
   */
 
-main()
+int main(void)
 {
 	int alpha;
 
@@ -17,4 +17,5 @@ main()
 	{
 	putchar(alpha);
 	}
+	return (0);
 }
