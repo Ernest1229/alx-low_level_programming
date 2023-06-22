@@ -17,6 +17,6 @@ int main(void)
 	{
 	putchar(alpha);
 	}
-	putchar("32");
+	putchar(32);
 	return (0);
 }
