@@ -13,8 +13,7 @@ main()
 {
 	int alpha;
 
-	alpha = 97;
-	for (alpha = 97; alpha = 122; ++alpha)
+	for (alpha = 97; alpha <= 122; ++alpha)
 	{
 	putchar(alpha);
 	}
