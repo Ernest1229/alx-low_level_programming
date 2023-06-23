@@ -14,10 +14,10 @@ void print_alphabet(void);
 
 int main(void)
 {
-	int c;
+	char c;
 
-	c = 97;
-	for (c = 97; c <= 122; c++)
+	c = 'a';
+	for (c = 'a'; c <= 'z'; c++)
 	{
 	putchar(c);
 	}
