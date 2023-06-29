@@ -10,16 +10,23 @@
 
 int main(void)
 {
-	int a;
+	int a = '0';
 
-	for (a = '0'; a <= '8'; ++a)
+	while (a <= '9')
 	{
 	putchar(a);
-	putchar(44);
-	putchar(' ');
+	if (a == '9')
+	{
+	putchar('\n');
+	return (0);
 	}
-
-	putchar(57);
+	else
+	{
+	putchar(',');
+	putchar(' ');
+	a++;
+	}
+	}
 
 	return (0);
 }
