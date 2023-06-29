@@ -1,18 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
-  *main - Entry point
-  *parameter is print_alphabet
+  *print_alphabet - Function name
+  *Parameters are c and _putchar function
   *
   *Description: prints the alphabet in lowercase followed by a newline
   *Return: 0
   */
 
-void print_alphabet(void);
-
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
