@@ -4,7 +4,7 @@
   *main - Entry point
   *Functions used are main and putchar
   *
-  *Description: A program that prints all possible combination of single digit numbers
+  *Description: Prints all possible combination of single digit numbers
   *Return: 0
   */
 
@@ -12,7 +12,7 @@ int main(void)
 {
 	int a;
 
-	for(a = '0'; a <= '8'; ++a)
+	for (a = '0'; a <= '8'; ++a)
 	{
 	putchar(a);
 	putchar(44);
@@ -20,6 +20,6 @@ int main(void)
 	}
 
 	putchar(57);
-	
+
 	return (0);
 }
