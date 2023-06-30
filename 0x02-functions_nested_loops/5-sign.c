@@ -2,13 +2,13 @@
 
 /**
   *print_sign - print the sign of a number
+  *@n: integer parameter
   *
   *Return: -1, 0, 1
   */
 
 int print_sign(int n)
 {
-	int n;
 
 	if (n < 0)
 	{
