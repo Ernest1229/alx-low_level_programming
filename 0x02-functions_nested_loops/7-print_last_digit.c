@@ -4,19 +4,17 @@
   *print_last_digit - prints last digit
   *@r: integer
   *
-  *Return: s
+  *Return: j
   */
 
 int print_last_digit(int r)
 {
 	int j;
-	char s;
 
-	j = r /10;
+	j = r % 10;
+	_putchar('j');
 
-	s = _putchar(".1%f", j);
-
-	return (s);
+	return (j);
 
 
 }
