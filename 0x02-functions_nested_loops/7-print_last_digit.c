@@ -10,9 +10,9 @@
 int print_last_digit(int r)
 {
 	int j;
-	int s;
+	char s;
 
-	r / 10 = j;
+	j = r /10;
 
 	s = _putchar(".1%f", j);
 
