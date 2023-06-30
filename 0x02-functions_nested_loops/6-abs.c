@@ -4,7 +4,7 @@
   *_abs - computes the absolute value of an integer
   *@n: integer parameter
   *
-  *Return: 0
+  *Return: n
   */
 
 int _abs(int n)
@@ -12,12 +12,12 @@ int _abs(int n)
 
 	if (n < 0)
 	{
-	n = n * -1;
+	n = (n * -1);
+	return (n);
 	}
 
 	else
 	{
-	n = n;
+	return (n);
 	}
-	return (0);
 }
