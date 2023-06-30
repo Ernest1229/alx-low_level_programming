@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
-  *print_last_digit(int) - prints last digit
+  *print_last_digit - prints last digit
+  *@r: integer
   *
-  *return: last digit
+  *Return: s
   */
 
-int print_last_digit(int)
+int print_last_digit(int r)
 {
-	int r;
+	int j;
+	int s;
 
 	r / 10 = j;
 
