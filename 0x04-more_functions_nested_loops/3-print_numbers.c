@@ -2,9 +2,9 @@
 
 /**
   *print_numbers - prints numbers 0 to 9 followed by a newline
-  *@a : integer parameter
+  *no parameter
   *
-  *Return: a
+  *Return: 0
   */
 
 void print_numbers(void)
