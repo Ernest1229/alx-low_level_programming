@@ -9,7 +9,7 @@
 
 void print_line(int n)
 {
-	int a;
+	int a = 1;
 
 	n = a;
 
