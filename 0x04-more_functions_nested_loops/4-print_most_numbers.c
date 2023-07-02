@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-  *print_most_number - prints from 0 to 9 but not 2 and 4
+  *print_most_numbers - prints from 0 to 9 but not 2 and 4
   *no parameter
   *
   *Return: 0
   */
 
-void print_most_number(void)
+void print_most_numbers(void)
 {
 	int a;
 
