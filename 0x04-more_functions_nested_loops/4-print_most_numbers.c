@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  *print_mot_numbers - prints from 0 to 9 but not 2 and 4
+  *print_most_number - prints from 0 to 9 but not 2 and 4
   *no parameter
   *
   *Return: 0
