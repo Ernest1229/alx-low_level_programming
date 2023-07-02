@@ -9,9 +9,9 @@
 
 void print_line(int n)
 {
-	int a = 0;
+	int a;
 
-	n = a;
+	a = n;
 
 	if (a > 0)
 	{
