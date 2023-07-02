@@ -3,7 +3,6 @@
 
 /**
   *print_to_98 - prints numbers from n to 98
-  *@a: integer
   *@n: integer
   *
   *Return: 0
