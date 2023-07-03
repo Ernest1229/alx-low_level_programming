@@ -8,7 +8,7 @@
   *Return: *c - pointer to c in s
   */
 
-char *_strchr(char *, char c)
+char *_strchr(char *s, char c)
 {
 	while (*s)
 	{
