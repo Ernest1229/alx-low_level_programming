@@ -19,12 +19,12 @@ void print_diagsums(int *a, int size)
 	d2 = 0;
 	s = size * size;
 
-	for (b = 0; b < s; b += size +1)
+	for (b = 0; b < s; b += size + 1)
 	{
 		d1 += a[b];
 	}
 
-	for (b = size - 1; b < s - 1; b += size -1)
+	for (b = size - 1; b < s - 1; b += size - 1)
 	{
 		d2 += a[b];
 	}
